@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+* {
+  font-family: 'cairo';
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightseagreen;
+  color: white;
+  padding: 0px 100px;
+  border: solid greenyellow 4px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+header:hover {
+  background-color: red;
+  border: solid grey 8px;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 18px;
+  transition: ease 1s;
+}
+header a:hover {
+  color: lightgreen;
+  font-size: 30px;
+}
+.part {
+  height: 100vh;
+  background-image: url(image/img.jpg);
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 100px;
+  background-size: cover;
+  background-position: center;
+  font-size: 25px;
+}
+.part span {
+  color: orangered;
+  font-size: 60px;
+}
+.part a {
+  color: wheat;
+  background-color: limegreen;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 15px;
+  font-size: 37px;
+  transition: ease 1s;
+}
+.part a:hover {
+  font-size: 50px;
+  background-color: green;
+}
+.service h1 {
+  text-align: center;
+  margin: 40px 0;
+}
+.service .page {
+  display: flex;
+  padding: 0 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.service .party {
+  margin-right: 30px;
+  width: 15em;
+  box-shadow: 9px 9px 18px 18px white;
+  padding: 10px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.party h2 {
+  color: orangered;
+}
+.party p {
+  font-size: 20px;
+}
+.service .party > div {
+  font-size: 50px;
+  color: red;
+}
+.news {
+  color: blue;
+  background-color: red;
+  text-align: center;
+  padding: 30px 100px;
+}
+.news h1 {
+  color: white;
+  margin-bottom: 50px;
+  display: inline-block;
+  border-bottom: solid 10px goldenrod;
+}
+.news .frist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.news .card {
+  background-color: whitesmoke;
+  margin: 20px;
+  border: solid;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  width: 16em;
+  margin-bottom: 30px;
+  overflow: hidden;
+  min-height: 300px;
+}
+.news button {
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 0 20px;
+}
+.news .you {
+  margin: 0 10px;
+  display: flex;
+  align-items: end;
+}
+.news .you button {
+  flex-shrink: 0;
+}
+.news  img {
+  height: 12em;
+  width: 100%;
+  object-fit: cover;
+}
+.part2 {
+  padding: 50px 100px;
+  display: flex;
+  align-items: center;
+}
+.part2 h1 {
+  color: navy;
+  font-size: 30px;
+}
+.are {
+  width: 60%;
+  text-align: center;
+}
+.are-img {
+  width: 40%;
+  margin-right: 30px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 16px wheat;
+  border-radius: 15px;
+}
+.about {
+  padding: 50px;
+  min-height: 50vh;
+  background-attachment: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: turquoise;
+}
+.about h1 {
+  color: dimgray;
+  font-size: 30px;
+}
+.about > div {
+  display: flex;
+}
+.about img {
+  border-radius: 50%;
+  height: 17em;
+  width: 17em;
+  margin-right: 20px;
+  border: solid 3px gainsboro;
+  margin-top: 100px;
+}
+.are-gif {
+  width: 40%;
+  margin-left: 10px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 16px wheat;
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+}
+.are-img-gif {
+  width: 40%;
+  margin-right: 10px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 16px wheat;
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+}
+.footer {
+  color: white;
+  background-color: gray;
+  text-align: center;
+  height: 100px;
+  padding: 70px;
+  font-size: 26px;
+}
+.up {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  background-color: red;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.up:hover {
+  background-color: greenyellow;
+}
+.contact {
+  padding: 100px;
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,87,45,1) 100%);
+text-align: center;
+}
+.contact h1 {
+  color: white;
+  margin-bottom: 50px;
+  border-bottom: solid 4px lightgray;
+  display: inline-block;
+}
+.from {
+  border: solid;
+  margin: 20px;
+  position: relative;
+}
+.from input {
+  padding: 0 5px;
+  width: 100%;
+  height: 40px;
+}
+.from label {
+  font-size: 17px;
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  transform: translateY(-50%);
+  transition: all 1s;
+  pointer-events: none;
+}
+.from input:hover~label,
+.from input:valid~label {
+  top: 15%;
+  transform: translateY(-40%);
+}
+.send {
+  padding: 5px 29px;
+  background-color: blue;
+  color: white;
+  border-radius: 12px;
+  border: none;
+}
+.send:hover {
+  transform: scale(1.1);
+  background-color: greenyellow;
+  color: black;
+  transition: all 1s;
+}
